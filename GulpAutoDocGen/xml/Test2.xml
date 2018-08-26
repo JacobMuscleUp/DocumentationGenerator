@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+  <members>
+    <member name="T:Test2">
+            <summary>
+            This is class <c>Test2</c>
+            </summary>
+        <member name="F:Test2.test0">
+            <summary type="Test0">
+            This is a Test0 field
+            </summary>
+            <desc>
+            DESCRIPTION
+            </desc>
+            <summary type="Test0">
+            More to come soon
+            </summary>
+        </member><member name="F:Test2.test1">
+            <summary type="Test1">
+            This is a Test1 field
+            </summary>
+        </member><member name="F:Test2.test10">
+            <summary type="Test10">
+            This is a Test10 field
+            </summary>
+        </member><member name="F:Test2.val">
+            <summary type="string">
+            This is a string field
+            </summary>
+        </member><member name="M:Test2.method0(System.Int32,System.Single,Test10)">
+            <summary type="void">
+            This is a method
+            </summary>
+            <returns>
+            nothing that can be returned
+            </returns>
+        </member><member name="M:Test2.method0(Test2,Test3)">
+            <summary type="Test1">
+            This is another method
+            </summary>
+            <returns>
+            a reference
+            </returns>
+        </member></member>
+  </members>
+</doc>

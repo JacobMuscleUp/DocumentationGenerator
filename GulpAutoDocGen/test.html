@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+    </head>
+    <body>
+        <input id="default" type="text" value="default">1st</input>
+        <select id="selectClass"></select>
+    </body>
+    <script>
+window.onload = function () {
+    var classList = ['Apple', 'Orange', 'Application', 'Oracle', 'Pet'];
+    var elemTextInput = document.getElementById('default')
+        , elemSelectClass = document.getElementById('selectClass');
+    elemTextInput.addEventListener('keyup', () => {
+        var targetList = classList.slice(0, classList.length);
+        var keyword = elemTextInput.value;
+        for (var i = targetList.length - 1; i >= 0; --i) {
+            for (var j = keyword.length - 1; j >= 0; --j) {
+                if (targetList[i].length <= j
+                    || targetList[i].charAt(j).toLowerCase() != keyword.charAt(j).toLowerCase()) {
+                    targetList.splice(i, 1);
+                    break;
+                }
+            }
+        }
+        for (var i = elemSelectClass.options.length - 1; i >= 0; --i)
+            elemSelectClass.remove(i);
+        targetList.forEach((className) => {
+            var elemOption = document.createElement('option');
+            elemOption.text = className;
+            elemSelectClass.add(elemOption);
+        });
+    });
+};
+    </script>
+</html>

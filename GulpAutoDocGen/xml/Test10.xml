@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+  <members>
+    <member name="T:Test10">
+            <summary>
+            This is class Test10
+            </summary>
+        <member name="F:Test10.val">
+            <summary>
+            This is a string field
+            </summary>
+        </member></member>
+  </members>
+</doc>

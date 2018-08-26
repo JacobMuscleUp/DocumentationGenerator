@@ -1,0 +1,11 @@
+npm install --global gulp-cli
+npm install --save-dev gulp@next
+npm install gulp-clean-css --save
+npm install gulp-sass --save
+npm install gulp-less --save
+npm install gulp-uglify --save
+npm install del --save
+npm install run-sequence --save
+
+more
+csc /out:exe\src.exe /doc:xml\src.xml cs\Test0.cs cs\Test1.cs cs\Test2.cs

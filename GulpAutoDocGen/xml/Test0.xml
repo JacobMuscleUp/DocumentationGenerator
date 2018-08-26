@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+  <members>
+    <member name="T:Test0">
+      <summary>Missing Description</summary>
+      <member name="F:Test0.test1">
+            <summary type="Test1">
+            This is a Test1 field
+            </summary>
+        </member>
+      <member name="F:Test0.val">
+            <summary type="float">
+            This is a float field
+            </summary>
+        </member>
+    </member>
+  </members>
+</doc>

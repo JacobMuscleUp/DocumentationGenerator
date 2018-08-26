@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+  <members>
+    <member name="T:Test3">
+            <summary>
+            This is class <c>Test3</c>
+            </summary>
+        <member name="F:Test3.test0">
+            <summary type="Test0">
+            This is a Test0 field
+            </summary>
+        </member><member name="F:Test3.test2">
+            <summary type="Test2">
+            This is a Test2 field
+            </summary>
+        </member><member name="F:Test3.val">
+            <summary type="string">
+            This is a string field
+            </summary>
+        </member><member name="M:Test3.method0(System.Int32,System.String)">
+            <summary>
+            This is a method
+            </summary>
+        </member></member>
+  </members>
+</doc>

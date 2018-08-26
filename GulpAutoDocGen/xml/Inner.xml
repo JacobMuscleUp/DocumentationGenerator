@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+  <members>
+    <member name="T:Test0.Inner">
+            <summary>
+            Inner
+            </summary>
+        <member name="F:Test0.Inner.a">
+            <summary type="float">
+            float field
+            </summary>
+        </member></member>
+  </members>
+</doc>

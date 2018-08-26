@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>prog</name>
+    </assembly>
+    <members>
+        <member name="F:Test0.test1">
+            <summary type="Test1">
+            This is a Test1 field
+            </summary>
+        </member>
+        <member name="F:Test0.val">
+            <summary type="float">
+            This is a float field
+            </summary>
+        </member>
+        <member name="T:Test0.Inner">
+            <summary>
+            Inner
+            </summary>
+        </member>
+        <member name="F:Test0.Inner.a">
+            <summary type="float">
+            float field
+            </summary>
+        </member>
+        <member name="T:Test1">
+            <summary>
+            This is class <c>Test1</c>
+            </summary>
+        </member>
+        <member name="F:Test1.test0">
+            <summary type="Test0">
+            This is a Test0 field
+            </summary>
+        </member>
+        <member name="M:Test1.method0(System.Int32,System.Single)">
+            <summary>
+            This is a method
+            </summary>
+        </member>
+        <member name="T:Test10">
+            <summary>
+            This is class Test10
+            </summary>
+        </member>
+        <member name="F:Test10.val">
+            <summary>
+            This is a string field
+            </summary>
+        </member>
+        <member name="T:Test2">
+            <summary>
+            This is class <c>Test2</c>
+            </summary>
+        </member>
+        <member name="F:Test2.test0">
+            <summary type="Test0">
+            This is a Test0 field
+            </summary>
+            <desc>
+            DESCRIPTION
+            </desc>
+            <summary type="Test0">
+            More to come soon
+            </summary>
+        </member>
+        <member name="F:Test2.test1">
+            <summary type="Test1">
+            This is a Test1 field
+            </summary>
+        </member>
+        <member name="F:Test2.test10">
+            <summary type="Test10">
+            This is a Test10 field
+            </summary>
+        </member>
+        <member name="F:Test2.val">
+            <summary type="string">
+            This is a string field
+            </summary>
+        </member>
+        <member name="M:Test2.method0(System.Int32,System.Single,Test10)">
+            <summary type="void">
+            This is a method
+            </summary>
+            <returns>
+            nothing that can be returned
+            </returns>
+        </member>
+        <member name="M:Test2.method0(Test2,Test3)">
+            <summary type="Test1">
+            This is another method
+            </summary>
+            <returns>
+            a reference
+            </returns>
+        </member>
+        <member name="T:Test3">
+            <summary>
+            This is class <c>Test3</c>
+            </summary>
+        </member>
+        <member name="F:Test3.test0">
+            <summary type="Test0">
+            This is a Test0 field
+            </summary>
+        </member>
+        <member name="F:Test3.test2">
+            <summary type="Test2">
+            This is a Test2 field
+            </summary>
+        </member>
+        <member name="F:Test3.val">
+            <summary type="string">
+            This is a string field
+            </summary>
+        </member>
+        <member name="M:Test3.method0(System.Int32,System.String)">
+            <summary>
+            This is a method
+            </summary>
+        </member>
+    </members>
+</doc>

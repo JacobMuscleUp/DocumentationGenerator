@@ -1,0 +1,24 @@
+a {
+    color: #da3f3f;
+    text-decoration: none;
+}
+a:hover {
+    color: #da3f3f;
+    text-decoration: underline;
+}
+
+body {
+    margin: auto;
+    width: 60%;
+    border: 3px solid rgb(41, 64, 9);
+    background-color: #7da6ce;
+    padding: 10px;
+    font-family: verdana;
+}
+
+#search-menu {
+    background-color: #2a3642;
+    color: #f0eeee;
+    width: 35%;
+    padding: 10px;
+}

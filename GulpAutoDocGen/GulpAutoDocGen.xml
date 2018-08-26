@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Project>
+    <ItemGroup>
+    <!--
+		<Reference Include="XXX">
+            <HintPath>dll\Test10.dll</HintPath>
+        </Reference>
+    -->
+    <Reference Include="XXX">
+            <HintPath>dll\dep.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+</Project>
